@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercurio De Leo diseñador</title>
+</head>
+<body>
+    <h1>CV diseñador Mercurio De Leo</h1>
+    <p>Este es mi CV</p>
+    <p>Soy diseñador industrial y técnico eléctrico
+        Maestrando en diseño
+        Profesor de la Universidad de Palermo
+        Ayudante de la materia Diseño IV a cargo de la prof. Daniela Di Bella
+    </p>
+    <!--Comentarios: 
+        
+        Etiquetas
+        img: autocontenida (sin cierre)
+        hr es una línea de separación
+        span es un resaltador de una parte de texto para referenciarlo luego
+        br (break) etiqueta para break, o romper la línea de texto
+        a (anchor) etiqueta de link: <a href="http://www.google.com.ar">Ir a google
+        ul (unordered list) lista <li1> hasta <lin>
+        ol (ordered list) lista ordenada
+        -->
+    <hr>
+    <p>Técnico eléctrico (matriculado en Provincia de Buenos Aires y COPIME
+        Técnico superior en diseño de productos
+        <span style="color:blueviolet">Licenciado en diseño, Universidad de Palermo</span>
+        Maestrando en gestión del diseño, Universidad de Palermo
+    </p>
+
+<!--Links-->
+    <br><a target="a_blank" href="https://www.linkedin.com/in/mercurio-deleo/">Encuentrame en linkedin</a>
+
+<!--imagenes-->
+    <br><img src="https://media.licdn.com/dms/image/C4E03AQHIJ4OxB7uKPQ/profile-displayphoto-shrink_800_800/0/1647028283121?e=1678320000&v=beta&t=08_w9Cj2optzyxJ78EuQhm9KUF3mss7tcEWKOGNGjcg" alt="La imagen no ha podido ser cargada" width="200"/>
+    <img src="Lush ciclo de consumo.jpg" alt="No encontro el archivo en la carpeta" width="50px"/>
+
+<!--Formularios de informacion: text, email, password, file, radio, checkbox -->
+    <form action="/formulario" method="post">
+        <label for="nombre">Tu nombre</label>
+        <input type="text" id="Tu nombre" name="Nombre" placeholder="Acá va tu nombre"/>
+        <br>
+        <label for="email">Tu email</label>
+        <input type="email" name="email" id="Tu email" placeholder="Dejanos tu email">
+        <br>
+        <label for="comentario">Comentanos tus ideas</label>
+        <textarea name="comentarios" id="Comentarios" cols="50" rows="5">Valor por defecto</textarea>
+        <br>
+        <input type="submit" name="Enviar ideas" id="Ideas"> Envia tus ideas<!--valor mostrado del boton-->
+        <br>
+        <button type="button"><img src="https://media.licdn.com/dms/image/C4E03AQHIJ4OxB7uKPQ/profile-displayphoto-shrink_800_800/0/1647028283121?e=1678320000&v=beta&t=08_w9Cj2optzyxJ78EuQhm9KUF3mss7tcEWKOGNGjcg" width="50" alt=""></button>
+        <button type="reset">Tipo boton</button>
+        <button type="submit">Tipo boton</button>
+    </form>
+    <ul>
+        <li>Numero UNO</li>
+        <li>Numero DOS</li>
+    </ul>
+    <ol>
+        <li>Numero 1</li>
+        <li>Numero 2</li>
+    </ol>
+
+</body>
+</html>

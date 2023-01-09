@@ -1,0 +1,61 @@
+HTML
+
+<html> (emmet abbreviation) | estructura básica que se necesita en un archivo
+
+<head> | datos propios del archivo, no visibles en la página
+
+<body> | todo el contenido de la página
+
+	TAGS
+
+	<h1> a <h6> | headings, distintas jerarquías
+
+	<p> | párrafo
+	
+<img src="ruta_de_la_imagen" alt="texto alternativo si la imagen no se carga exitosamente" (*no tiene elemento de cierre* + siempre incluir texto de no-carga)
+		height="XXpx" width="XXpx"
+	
+	<ul> | 
+		<li> | lista
+
+	<span> | elemento de linea
+
+	<bl> | bloque utiliza todo el espacio que tiene disponible de la pantalla
+
+	<form action="ingresar repositorio de datos" method="post"> | formulario (contacto, más info, etc)
+		(etiqueta, elemento anidado)
+
+		<label>Nombre</label>
+		(los inputs se cierran en sí mismos)
+		<input type="text" name="nombre" placeholder="ingrese su nombre" required> 
+		
+		<label>Apellido</label>
+		<input type="text" name="apellido" placeholder="ingrese su apellido" required>
+
+		<label>Email</label>
+		<input type="email" name="email" placeholder="ingrese su email" required>
+
+		<label>Contraseña</label>
+		<input type="password" placeholder="ingrese su contraseña" required>
+
+		<input type="submit" value="Enviar>
+	</form>
+
+		fecha, file, search, submit value="enviar", etc.
+
+	<> | 
+
+	<> | 
+
+	<> | 
+
+
+
+Atributo: información complemetaria que completa o da más información del elemento para mostrarse en el navegador
+
+
+
+
+
+
+
